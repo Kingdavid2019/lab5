@@ -189,7 +189,7 @@ public class Calculator
         // Hint: you should try and call execute(). If execute encounters an error, it will throw an exception. This
         // method will catch those exceptions and respond accordingly.
     	
-    	String[] strg = input.split(" ");
+    	String[] strg = input.split(" "); //splits string
     	
     	try {
     		int val = execute(strg);

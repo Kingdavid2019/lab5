@@ -295,7 +295,7 @@ public class CalculatorTest {
      */
     public void parseAndExecuteTestValidQuit() throws AssertException
     {
-        String result = Calculator.parseAndExecute("quit");
+        String result = Calculator.parseAndExecute("quit"); 
         Assert.assertEquals("quit", result);
     }
 
